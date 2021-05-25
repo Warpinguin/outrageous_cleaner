@@ -2,7 +2,7 @@
 TITLE Warpinguin`s shit cleaning tool made with pure hate
 
 @ECHO Hello. You may know me as Warpinguin, Outrageous, or Haluzak.
-@ECHO Now i`m going to break your pc and stole your bank account credentials.
+@ECHO Now I`m going to break your pc and stole your bank account credentials.
 @ECHO So please sit down relax and be patient ! ! !
 
 @ECHO ==============================
@@ -45,37 +45,37 @@ del /f /s /q %windir%\prefetch\*.*
 
 del /q /f /s %temp%\*
 
-del /q /s† "c:\winnt\temp\*.*"
-†† †
-del /q /s† "c:\windows\temp\*.*"
-†† †
-del /q /s† "%USERPROFILE%\Local Settings\Temp\*.*"
-†† †
-del /q /s† "%USERPROFILE%\Local Settings\Temporary Internet Files\*.*" 
-† †
-del /q /s† "%USERPROFILE%\Cookies\*.*"
-†† †
-del /q /s† "%USERPROFILE%\Recent\*.*" 
-† †
+del /q /s¬† "c:\winnt\temp\*.*"
+¬†¬† ¬†
+del /q /s¬† "c:\windows\temp\*.*"
+¬†¬† ¬†
+del /q /s¬† "%USERPROFILE%\Local Settings\Temp\*.*"
+¬†¬† ¬†
+del /q /s¬† "%USERPROFILE%\Local Settings\Temporary Internet Files\*.*" 
+¬† ¬†
+del /q /s¬† "%USERPROFILE%\Cookies\*.*"
+¬†¬† ¬†
+del /q /s¬† "%USERPROFILE%\Recent\*.*" 
+¬† ¬†
 rmdir /q /s "%USERPROFILE%\Local Settings\Temporary Internet Files"
-†† †
+¬†¬† ¬†
 rmdir /q /s "%USERPROFILE%\Local Settings\Temp"
-† †
+¬† ¬†
 rmdir /q /s "%USERPROFILE%\Cookies\*.*"
-† 
+¬† 
 rmdir /q /s "c:\winnt\Temp"
 
 rmdir /q /s "c:\windows\Temp"
 
-md† "%USERPROFILE%\Local Settings\Temporary Internet Files"
-†
-md† "%USERPROFILE%\Local Settings\Temp"
+md¬† "%USERPROFILE%\Local Settings\Temporary Internet Files"
+¬†
+md¬† "%USERPROFILE%\Local Settings\Temp"
 
-md† "%USERPROFILE%\Cookies"
+md¬† "%USERPROFILE%\Cookies"
 
-md† "c:\winnt\Temp"
+md¬† "c:\winnt\Temp"
 
-md† "c:\windows\Temp"
+md¬† "c:\windows\Temp"
 
 del /s /f /q c:\windows\temp\*.*
 
@@ -111,11 +111,11 @@ del /f /q %userprofile%\cookies\*.*
 
 del /f /q %userprofile%\recent\*.*
 
-del /f /s /q ì%userprofile%\Local Settings\Temporary Internet Files\*.*î
+del /f /s /q ‚Äú%userprofile%\Local Settings\Temporary Internet Files\*.*‚Äù
 
-del /f /s /q ì%userprofile%\Local Settings\Temp\*.*î
+del /f /s /q ‚Äú%userprofile%\Local Settings\Temp\*.*‚Äù
 
-del /f /s /q ì%userprofile%\recent\*.*î
+del /f /s /q ‚Äú%userprofile%\recent\*.*‚Äù
 
 cls
 
@@ -137,9 +137,9 @@ FOR /D %%X IN ("%SRC1%\*") DO FOR /D %%Y IN ("%%X\%SRC2%\*.*") DO RMDIR /S /Q "%
 
 echo About to delete files from "Local settings\temp"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR /D %%Y IN ("%%X\%SRC3%\*.*") DO RMDIR† /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR /D %%Y IN ("%%X\%SRC3%\*.*") DO RMDIR¬† /S /Q "%%Y"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR† %%Y IN ("%%X\%SRC3%\*.*") DO DEL /F /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR¬† %%Y IN ("%%X\%SRC3%\*.*") DO DEL /F /S /Q "%%Y"
 
 echo About to delete files from "Windows\Temp"
 
@@ -157,21 +157,21 @@ echo.
 
 echo About to delete files from "Local Settings\History"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR† %%Y IN ("%%X\%SRC4%\*.*") DO DEL /F /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR¬† %%Y IN ("%%X\%SRC4%\*.*") DO DEL /F /S /Q "%%Y"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR† %%Y IN ("%%X\%SRC4%\today*.*") DO DEL /F /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR¬† %%Y IN ("%%X\%SRC4%\today*.*") DO DEL /F /S /Q "%%Y"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR† %%Y IN ("%%X\%SRC4%\*.*") DO DEL /F /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR¬† %%Y IN ("%%X\%SRC4%\*.*") DO DEL /F /S /Q "%%Y"
 
 echo About to delete files from "%SYSTEMROOT%\Temp"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR† %%Y IN ("%%X\%SRC5%\*.*") DO DEL /F /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR¬† %%Y IN ("%%X\%SRC5%\*.*") DO DEL /F /S /Q "%%Y"
 
 echo About to delete files from "Cookies"
 
-FOR /D %%X IN ("%SRC1%\*") DO FOR† %%Y IN ("%%X\%SRC6%\*.*") DO DEL /F /S /Q "%%Y"
+FOR /D %%X IN ("%SRC1%\*") DO FOR¬† %%Y IN ("%%X\%SRC6%\*.*") DO DEL /F /S /Q "%%Y"
 
 echo.
-echo All is done. So show some fuckin respect and appreciation 
+echo All is done. Don't forget - Happy ending is always for free
 echo. & pause
-†
+¬†
